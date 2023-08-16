@@ -1,5 +1,4 @@
 import pygame
-import sys
 
 # Initialize pygame
 pygame.init()
@@ -82,8 +81,7 @@ def main():
         
         pygame.display.flip()
     pygame.quit()
-    sys.exit()
+    
 
-if __name__ == "__main__":
-    main()
+main()
 
